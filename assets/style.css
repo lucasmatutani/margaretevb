@@ -1,0 +1,138 @@
+.menu a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #403f3f;
+}
+
+.menu a:hover {
+    color: #55a10e;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 0.9em;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}
+
+.home {
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+    display: block;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre img {
+    max-height: 176px;
+    max-width: 168px;
+    margin-top: 70px;
+}
+
+.sobre .txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.duvidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.duvidas .titulo {
+    margin: 50px 0 50px 0;
+}
+
+.duvidas p {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.duvidas .hidden_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duvidas p:hover {
+    cursor: pointer;
+    color: #55a10e;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato h4{
+    margin: 50px 0;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inputs-contato{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#input-msg textarea{
+    width: 100%; 
+    height: 150px; 
+    resize: none;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 60%;
+}
+
+.btn-enviar input{
+    background-color: #000;
+    /* border-style: none; */
+    color: #fff;
+}
+
+.footer{
+    background-color: #F2F2F2;
+}
